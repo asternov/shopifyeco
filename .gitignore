@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Shopify CLI
+.shopify/
+
+# IDE
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+node_modules/
