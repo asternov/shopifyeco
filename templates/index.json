@@ -1,0 +1,1065 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_nested": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide_image_1": {
+          "type": "_slide-image",
+          "settings": {
+            "image": "shopify://shop_images/d22795fe57dad1445970fc5b1ebc72b43b45da66_75c55bb5-7a5d-413e-b124-672f893cc5e2.jpg",
+            "link": "",
+            "flex_align_desktop": "align--bottom-left-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#fffcf3",
+            "overlay_type": "text"
+          },
+          "blocks": {
+            "heading": {
+              "type": "heading",
+              "settings": {
+                "text": "JOIN THE JOURNEY",
+                "heading_font_size": "heading-large",
+                "heading_tag": "h1",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "Into a realm of timeless garments beyond fashion or season\n<br>\ndesigned to empower your uniqueness and sensuality.",
+                "text_font_size": "body-medium",
+                "padding_bottom": 32
+              },
+              "blocks": {}
+            },
+            "group_buttons": {
+              "type": "_group-buttons",
+              "name": "Side by side buttons",
+              "settings": {
+                "button_text": "Shop the Collection",
+                "button_url": "shopify://collections",
+                "button_type": "btn--primary",
+                "button_size": "",
+                "button_style": "btn--solid",
+                "show_arrow": false,
+                "button_secondary_text": "Shop by Category",
+                "button_secondary_url": "shopify://pages/shop-by-category",
+                "button_secondary_type": "btn--secondary",
+                "button_secondary_size": "",
+                "button_secondary_style": "btn--outline",
+                "show_secondary_arrow": false,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text",
+            "group_buttons"
+          ]
+        }
+      },
+      "block_order": [
+        "slide_image_1"
+      ],
+      "custom_css": [
+        ".hero__button-group {margin: 0; gap: 20px;}",
+        ".hero__button {margin: 0;}",
+        ".slideshow .hero__content--transparent {padding: var(--outer) var(--outer) calc(var(--outer));}",
+        "@media only screen and (min-width: 750px) {.screen-height-full {/* decrease parallax strength */ --PARALLAX-STRENGTH-MIN: 100%; --PARALLAX-STRENGTH-MAX: 120%; /* 10px is padding top+bottom*/ min-height: calc(var(--full-screen) - 10px); }}"
+      ],
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 4,
+        "width": "wrapper--full",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-full--mobile",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_apnD8F": {
+      "type": "section-rich-text",
+      "blocks": {
+        "image_8hBNeP": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/yantra_76b3e922-9d3b-4e5f-ac5f-3b3c5d141b5c.png",
+            "image_width": 70,
+            "padding_bottom": 16
+          }
+        },
+        "heading_kUmfLC": {
+          "type": "heading",
+          "settings": {
+            "title": "Sacred Wear for",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 0,
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_MgHj4a": {
+          "type": "heading",
+          "settings": {
+            "title": "The Modern Goddess",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_HXUdn6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed to honor the body and the earth, each piece invites you back to your natural rhythm.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8hBNeP",
+        "heading_kUmfLC",
+        "heading_MgHj4a",
+        "text_HXUdn6"
+      ],
+      "custom_css": [
+        ".hero__content__wrapper {max-width: 426px; padding: 0;}",
+        "picture img {max-width: 310px; object-fit: contain; left: 50%; transform: translateX(-50%); height: 750px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "image": "shopify://shop_images/yantra_76b3e922-9d3b-4e5f-ac5f-3b3c5d141b5c.png",
+        "image_mobile": "shopify://shop_images/yantra_76b3e922-9d3b-4e5f-ac5f-3b3c5d141b5c.png",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 200,
+        "padding_bottom": 150
+      }
+    },
+    "columns-1": {
+      "type": "section-columns",
+      "blocks": {
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AYA-243_2ef83c5d-ee2a-419f-8a53-51cb4899817f.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "ĀNANDA SHAKTI SS 2026",
+            "heading_font_size": "heading-small",
+            "text": "<p>Ananda Shakti is an offering of joy shaped through silk, handwoven textiles, natural stones, and delicate embroidery.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Shop Collection",
+            "button_url": "shopify://collections/ananda-shakti-ss-2026",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "image_aspect_ratio": 1.1,
+            "mobile_image_aspect_ratio": 1.2,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bridal_Boho_Cape_Poncho_Hand_loomed_by_AYA_Sacred_Wear_7.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Signature garments",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our most iconic designs — pieces that define the essence of AYA Sacred Wear.<br/>Timeless silhouettes  from natural fabrics</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Shop Collection",
+            "button_url": "shopify://collections/flower-power",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "image_aspect_ratio": 1.1,
+            "mobile_image_aspect_ratio": 1.2,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AYA-91.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Natural Silk",
+            "heading_font_size": "heading-small",
+            "text": "<p>Silk pieces by AYA Sacred Wear are crafted from naturally sourced silk , hand-worked and botanically dyed using plants</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Shop Collection",
+            "button_url": "shopify://collections/silk-garments",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "image_aspect_ratio": 1.1,
+            "mobile_image_aspect_ratio": 1.2,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image-3",
+        "image-1",
+        "image-2"
+      ],
+      "custom_css": [
+        ".column__text p {text-align: justify;}",
+        ".btn .icon-nav-arrow-right {margin-left: 10px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 62,
+        "heading_tag": "automatic"
+      }
+    },
+    "video": {
+      "type": "section-video",
+      "disabled": true,
+      "custom_css": [
+        ".hero__content {/* 8px button margin*/ padding: var(--outer) var(--outer) calc(var(--outer) - 8px);}"
+      ],
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/videoplayback.mp4",
+        "show_video_popup": true,
+        "video_popup_social": "https://www.youtube.com/watch?v=Fy_FKNulNuM",
+        "title": "Natural dyes",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Where nature meets art in perfect harmony</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-left",
+        "link_text": "Learn More",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-5",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_custom_code_ihaiaq": {
+      "type": "section-custom-code",
+      "custom_css": [
+        ".custom-code {padding: 0px !important; margin: 0px; width: 100vw; max-width: 100vw;}",
+        ".custom-code {overflow-x: hidden; max-width: 100%;}"
+      ],
+      "name": "Custom code",
+      "settings": {
+        "code": "<iframe width=\"100%\" height=\"725px\" src=\"https://www.youtube.com/embed/Fy_FKNulNuM?si=d_L-Mv2om6MjwFvB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_wWhbm7": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_67KUBh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "New Arrivals",
+            "padding_bottom": 4
+          }
+        },
+        "heading_gXxRJi": {
+          "type": "heading",
+          "settings": {
+            "title": "MODULAR LOOKS",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 12,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_4TRk33": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Wear it your way. </strong>A thoughtful system of garments designed to mix, layer, and evolve - effortless, adaptable, and made for everyday life.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 42
+          }
+        },
+        "collection_ATcQ9n": {
+          "type": "collection",
+          "settings": {
+            "show_collection_card": true,
+            "collection_1": "organic-tops-tunics",
+            "image_1": "shopify://shop_images/AYA-73.jpg",
+            "button_text_1": "Boho Top",
+            "collection_2": "organic-skirts",
+            "image_2": "shopify://shop_images/AYA-69.jpg",
+            "button_text_2": "Pants & Skirts",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_67KUBh",
+        "heading_gXxRJi",
+        "text_4TRk33",
+        "collection_ATcQ9n"
+      ],
+      "custom_css": [
+        ".btn--text:not(.btn--text-no-underline) span::after {display: none;}",
+        ".brick__block,.brick__block__text,.hero__content,.collection-item--card {background: none;}",
+        ".brick__block__image {max-width: 100%;}",
+        ".brick__block--images {min-height: 65vh;}",
+        ".image__hero__frame {height: 100%; max-width: 100%; aspect-ratio: 0.86;}",
+        ".collection-item__bg .image-wrapper {--aspect-ratio: 0.75 !important;}",
+        ".hero__rte p {text-align: justify;}",
+        ".brick__section .image__fill img {object-fit: contain;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/AYA-71_785f5161-ef17-42ee-b5eb-038cc3f7157c.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-full--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 112,
+        "padding_bottom": 112,
+        "show_placeholder": false
+      }
+    },
+    "custom_new_arrivals_6wEUrp": {
+      "type": "custom-new-arrivals",
+      "disabled": true,
+      "name": "New Arrivals (custom)",
+      "settings": {
+        "main_image": "shopify://shop_images/black_boho_long_kimono_hand_loomed_by_aya_sacred_wear_8.jpg",
+        "main_image_link": "",
+        "title": "New Arrivals",
+        "subtitle": "FOR EVERYDAY WEAR",
+        "description": "Thoughtfully made from natural, sustainable materials, our garments are designed to support everyday life — where comfort, beauty, and conscious craftsmanship become a daily ritual.",
+        "secondary_image_1": "shopify://shop_images/new_black_crop_top_for_women_by_aya_sacred_wear_3.jpg",
+        "secondary_image_1_link": "shopify://products/new-black-boho-crop-top-bohemian-top-with-handmade-knots",
+        "caption_1": "Boho Top",
+        "secondary_image_2": "shopify://shop_images/black_boho_long_kimono_hand_loomed_by_aya_sacred_wear_10.jpg",
+        "secondary_image_2_link": "shopify://products/black-organic-poncho-tribal-cotton-robe-hand-embroidered-overcoat",
+        "caption_2": "Organic Poncho"
+      }
+    },
+    "announcement-2": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_9QbcGj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HANDMADE GARMENTS</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_DyN7tH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SUSTAINABLE MATERIALS</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_wBJjQj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_Df3R4i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SLOW FASHION</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_QWfJzL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_VFeKdb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ETHICAL SOURCING</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_6UPFjE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_MLtQMc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ARTISANAL DESIGN</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_xAePXD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_9QbcGj",
+        "text_1",
+        "text_DyN7tH",
+        "text_wBJjQj",
+        "text_Df3R4i",
+        "text_QWfJzL",
+        "text_VFeKdb",
+        "text_6UPFjE",
+        "text_MLtQMc",
+        "text_xAePXD"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section-tab-collections": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "title": "Dresses",
+            "featured_collection": "organic-cotton-dresses",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/photo_2026-01-20_16.12.24.jpg",
+            "overlay_type": "disabled",
+            "description": "<p>Timeless silhouettes crafted from natural fabrics and refined through artisanal techniques. </p>",
+            "color": "#ffffff",
+            "link_text": "Shop Dresses",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Skirts",
+            "featured_collection": "organic-skirts",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/Powder_Pink_Venus_Peace_Silk_Skirt_Minimalist_Wrap_Skirt_Organic_Summer_Wrap_Skirt_1_2c41fcde-bc1e-410f-ab93-4677daa248a8.jpg",
+            "overlay_type": "disabled",
+            "description": "<p>Crafted from naturally sourced fabrics, including hand-worked silk and botanically dyed textiles, each piece moves with the body, offering balance, softness, and timeless elegance.</p>",
+            "color": "#ffffff",
+            "link_text": "Shop Skirts",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": true,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection-2",
+        "collection-1",
+        "collection-3"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "title": "UNIQUE ARTISAN PIECES",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Designed to honor the body and the earth, each piece invites you back to your natural rhythm.</p>",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "layout_desktop": "slider",
+        "product_limit": 7,
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "2",
+        "color_scheme": "scheme-1",
+        "padding_top": 62,
+        "padding_bottom": 96,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_product_QL6CCf": {
+      "type": "section-product",
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.featured-product__content {background-image: url(\"\"); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 0px; height: 100%; } .featured-product__card {display: none; }}",
+        ".featured-product__bg {display: none;}",
+        ".featured-product__aside--bg {padding: 0px;}"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "boho-wedding-dress-beach-wedding-dress-off-white-multiway-dress",
+        "show_product_card": false,
+        "layout": "",
+        "limit": 3,
+        "image": "shopify://shop_images/solid-color-image.jpg",
+        "scrolling_styles": "vertical",
+        "horizontal_scroll": false,
+        "color_scheme": ""
+      }
+    },
+    "section_rich_text_UGqpPw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_beKwEE": {
+          "type": "heading",
+          "settings": {
+            "title": "ETHICAL SLOW FASHION",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_idkdxT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed to honor the body and the earth, each piece invites you back to your natural rhythm.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_beKwEE",
+        "text_idkdxT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 96,
+        "padding_bottom": 42
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AYA-82_0261fdb9-2acc-4005-a058-95e7a80a71b1.jpg",
+            "title": "ĀNANDA SHAKTI SS 2026",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Ananda Shakti is an offering of joy shaped through silk, handwoven textiles, natural stones, and delicate embroidery.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "opacity",
+            "link_text": "Shop Dresses",
+            "link": "shopify://collections/ananda-shakti-ss-2026",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/white_poncho_for_women_with_handmade_knots_by_aya_sacred_wear_5.jpg",
+            "title": "Cover-ups & Capes & Shawls",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Handwoven fabrics, natural fibers, and botanical dyes come together in pieces designed to protect, envelop, and elevate the silhouette.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "opacity",
+            "link_text": "Shop Dresses",
+            "link": "shopify://collections/artisan-cover-ups-capes",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "custom_css": [
+        ".image-overlay {background-color: unset; background: linear-gradient( to top, rgba(36, 32, 28, 0.6), rgba(36, 32, 28, 0) );}",
+        ".hero__description p {text-align: justify;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-6",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "section_hero_4Qn873": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_EED4VW": {
+          "type": "heading",
+          "settings": {
+            "title": "the  Essence of Our Goddess Collection",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_N7iyNt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Flowing silk and handwoven textiles, entirely botanically dyed using plants, flowers, and roots.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_P6qz3m": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_EED4VW",
+        "text_N7iyNt",
+        "button_P6qz3m"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/banner-image-cropped.webp",
+        "link": "shopify://collections/shirts-and-pants",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "content_width": 100,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-5",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_products_image_cPJVNr": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_JC93xN": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "powder-pink-toga-dress-boho-macrame-dress-boho-sustainable-dress",
+              "dusty-pink-puff-sleeves-top-boho-tassels-crop-top-hand-embroidered-top",
+              "new-greek-goddess-dress-boho-dress-organic-cotton-bridesmaid-dress-bohemian-dress",
+              "powder-pink-small-bells-dress-organic-cocktail-dress-ombre-minimalist-dress"
+            ],
+            "layout_mobile": "slider"
+          }
+        },
+        "image_xEj7XB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AYA-315_439de1ff-7a4d-45e1-8ea2-c804c96a1e31.jpg",
+            "mobile_height": "screen-height-one-half--mobile",
+            "title": "the boho essentials",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Timeless silhouettes crafted from natural, handcrafted fabrics, marked by distinctive details and created to be worn, remembered, and returned to.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "shopify://collections/flower-power",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "products_JC93xN",
+        "image_xEj7XB"
+      ],
+      "custom_css": [
+        ".brick__section {gap: 30px;}",
+        ".hero__title {margin-top: 70px;}",
+        ".hero__title,.hero__description {color: #fffcf3; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);}",
+        ".hero__description {text-align: justify;}"
+      ],
+      "name": "Products with image",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 100,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_ekaiRP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_eUneyR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Commitment",
+            "padding_bottom": 16
+          }
+        },
+        "heading_eNDqbJ": {
+          "type": "heading",
+          "settings": {
+            "title": "“we only use natural, hand-spun, and hand-woven fabrics, aiming to connect with the source of our materials and the artisans who craft them.”",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_j7yF6D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>— Amma Ram Founder</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eUneyR",
+        "heading_eNDqbJ",
+        "text_j7yF6D"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "section_timeline_UWNLU6": {
+      "type": "section-timeline",
+      "blocks": {
+        "timeline_99cjPc": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/olive_colour_boho_dress_with_ledder_sides_see_through_dress_women_by_aya_sacred_wear_3.jpg",
+            "subheading": "Commitment One",
+            "title": "Sustainable Materials",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Made in the very heart of beautiful Bali island by loving hands of local artisans. </p><p>AYA especially focus on fabrics that are hand-spun and hand-woven, supporting ancient skills and traditional crafts. Thriving to go deeper to the source of all the materials - from the seed planted to the people who weave the fabric. Our vision is to be able to connect with each being involved in the making from the very source.</p><p>Being able to Source the most ethical, fair trade, Eco and conscious materials.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "timeline_NYeDtL": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4534.jpg",
+            "subheading": "Commitment Two",
+            "title": "giving back",
+            "heading_font_size": "heading-medium",
+            "text": "<p>All AYA Sacred Wear production is rooted in Bali.</p><p>We collaborate closely with local artisans, family-run workshops, and village communities — from handwoven fabrics and natural dyeing to handcrafted accessories and finishing details.</p><p><br/></p><p>By producing locally, we actively support livelihoods, preserve traditional skills, and contribute to the wellbeing of the communities behind each piece.</p><p>Every garment carries the hands, stories, and care of the people who create it — transforming craftsmanship into a shared, living exchange.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "timeline_y4X6cW": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4537.jpg",
+            "subheading": "Commitment Three",
+            "title": "aya community",
+            "heading_font_size": "heading-medium",
+            "text": "<p>We witness AYA Sacred Wear traveling across the world — adorning the planet through weddings, sacred ceremonies, meaningful gatherings, and unforgettable encounters.</p><p>It is a profound miracle for us to see our creations become part of life’s most important moments.</p><p>To dress this planet, to accompany love, celebration, and connection, is our greatest honor.</p><p><br/></p><p>AYA Sacred Wear is a living community, and we are always open to conscious collaborations, shared visions, and creative exchanges.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_99cjPc",
+        "timeline_NYeDtL",
+        "timeline_y4X6cW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".timeline__dot {border-radius: 100%;}",
+        ".timeline__body .timeline__row img {background: url(\"https://cdn.shopify.com/videos/c/o/v/6710f6bdf6c14919b6cbd80361573782.mp4\");}",
+        ".hero__rte {text-align: justify;}"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "show_images": true,
+        "title": "",
+        "heading_font_size": "heading-large",
+        "text": "",
+        "text_font_size": "body-medium",
+        "text_alignment": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "promo_text": "",
+        "promo_text_font_size": "body-small",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "",
+        "dot_background": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "rich-text-3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Follow us",
+            "padding_bottom": 6
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "@aya_sacredwear",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 82,
+        "padding_bottom": 0
+      }
+    },
+    "176794874018dc9f16": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_6waFWx": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 12,
+            "instafeed_margin_bottom": 12,
+            "instafeed_margin_sides": 16,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_6waFWx"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_nested",
+    "section_rich_text_apnD8F",
+    "columns-1",
+    "video",
+    "section_custom_code_ihaiaq",
+    "section_double_wWhbm7",
+    "custom_new_arrivals_6wEUrp",
+    "announcement-2",
+    "section-tab-collections",
+    "section_product_QL6CCf",
+    "section_rich_text_UGqpPw",
+    "custom-content-1",
+    "section_hero_4Qn873",
+    "section_products_image_cPJVNr",
+    "section_rich_text_ekaiRP",
+    "section_timeline_UWNLU6",
+    "rich-text-3",
+    "176794874018dc9f16"
+  ]
+}

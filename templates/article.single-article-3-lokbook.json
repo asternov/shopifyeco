@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_jtTNmM": {
+      "type": "section-divider",
+      "disabled": true,
+      "custom_css": [
+        ".divider {--border: #24201c; border-width: 0.5px 0 0;}"
+      ],
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_tMYLjx": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_9rqd4Y": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ article.title }}",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_acnGT4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ article.author }}</p><p></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_mKtF8q": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop the Collection",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_9rqd4Y",
+        "text_acnGT4",
+        "button_mKtF8q"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "{{ article.image }}",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-5",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "recent-articles": {
+          "type": "recent",
+          "disabled": true,
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "recent-articles"
+      ],
+      "custom_css": [
+        ".article__hero {display: none;}"
+      ],
+      "settings": {
+        "show_image": false,
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "show_sharing": false,
+        "arrows": false,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_collection_EGxYmW": {
+      "type": "section-collection",
+      "custom_css": [
+        ".wrapper {max-width: 100vw;}"
+      ],
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "new-arrivals-men",
+        "heading": "Shop our looks",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 1,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_divider_jtTNmM",
+    "section_hero_tMYLjx",
+    "main",
+    "section_collection_EGxYmW"
+  ]
+}

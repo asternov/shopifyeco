@@ -1,0 +1,738 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_wjYhif": {
+      "type": "section-divider",
+      "custom_css": [
+        ".divider {--border: #24201c; border-width: 0.5px 0 0;}"
+      ],
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "badges_EKgDG3": {
+          "type": "badges",
+          "settings": {
+            "sale_badge": true,
+            "product_badges": true,
+            "padding_bottom": 8
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "siblings_RdbAxK": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "",
+            "sibling_color": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_text: field: 'label' }}",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "frequently-asked-questions",
+            "size_chart_style": "text",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-small",
+            "padding_bottom": 24
+          }
+        },
+        "icon_2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "image": "shopify://shop_images/needle-icon.svg",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Each garment is individually sewn by hand, ensuring quality and craftsmanship in every detail.</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "image": "shopify://shop_images/cotton-icon.svg",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Made from 100% homespun cotton, offering breathability, softness, and everyday comfort.</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon_bH3jWT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "image": "shopify://shop_images/flower-icon.svg",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Naturally dyed using plant-based materials like flowers, herbs, and roots. No synthetic chemicals.</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 42
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "accordion_i6tbbM": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": true,
+            "show_read_more": false,
+            "default_open": true,
+            "heading": "Description",
+            "heading_font_size": "body-medium",
+            "text": "",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 8
+          }
+        },
+        "accordion_LUmAgG": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Material Details",
+            "heading_font_size": "body-medium",
+            "text": "<p>Each piece in our collection is crafted with intention—balancing timeless design with modern responsibility. We use only high-quality, ethically sourced materials, working closely with skilled artisans who bring every detail to life with care and precision.</p><p>Our commitment to sustainability extends from recycled precious metals to responsible stone sourcing and mindful production practices. Whether it's a gift or a personal keepsake, your jewelry is made to last—and made to matter.</p>",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 24
+          }
+        },
+        "accordion_LGatew": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Shipping & Returns",
+            "heading_font_size": "body-medium",
+            "text": "<p>Shipping & Returns</p>",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 24
+          }
+        },
+        "inventory_countdown_9EACqM": {
+          "type": "inventory_countdown",
+          "disabled": true,
+          "settings": {
+            "show_notice": "always",
+            "max_inventory": 10,
+            "show_inventory_counter": false,
+            "icon_size": 20,
+            "in_stock_color": "#56ad6a",
+            "low_stock_color": "#f79554",
+            "out_of_stock_color": "#721c24",
+            "padding_bottom": 24
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 32
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [],
+            "show_available_upsell_only": false,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 24
+          }
+        },
+        "divider_1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "features_chGfmk": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "title": "Styling Questions?",
+            "text_font_size": "body-medium",
+            "text": "<p>For any styling or fit questions, please contact our team. Hours of operations: M-F 9:00 - 17:00 (WITA)</p><p><a href=\"/pages/contact\" title=\"Contact\">Email</a> <a href=\"/pages/contact\" title=\"Contact\">Whatsapp</a></p>",
+            "bg_color": "#f5eee4",
+            "color": "",
+            "padding_bottom": 22
+          }
+        },
+        "complementary_products_qtdAMd": {
+          "type": "complementary-products",
+          "settings": {
+            "complementary_limit": 3,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "badges_EKgDG3",
+        "title",
+        "price",
+        "siblings_RdbAxK",
+        "variants",
+        "icon_2",
+        "icon_1",
+        "icon_bH3jWT",
+        "buttons",
+        "accordion_i6tbbM",
+        "accordion_LUmAgG",
+        "accordion_LGatew",
+        "inventory_countdown_9EACqM",
+        "pickup",
+        "upsell",
+        "divider_1",
+        "features_chGfmk",
+        "complementary_products_qtdAMd"
+      ],
+      "custom_css": [
+        ".product__block--lines {--border: #f5eee4;}",
+        ".block__icon__row {padding-top: 8px;}",
+        ".block__icon {align-self: center;}",
+        ".rte p a {margin-right: 20px;}",
+        ".radio__fieldset .radio__button label {border-color: #f5eee4; border-radius: 2px; padding-block: 6px; padding-inline: 16px;}",
+        ".radio__fieldset .radio__button input:checked ~ label,.radio__fieldset .radio__button label:hover {background: #f5eee4; color: var(--text);}",
+        ".radio__legend__link {font-size: 14px; width: fit-content; margin: 0; margin-top: 14px; margin-bottom: 4px;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "mobile_image_style": "slider",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "announcement": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_ahhmFM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "heading_mdMa4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free shipping on orders over $200",
+            "heading_font_size": "heading-x-small"
+          }
+        },
+        "text_rNczAj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>•</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "heading_XVqAix": {
+          "type": "heading",
+          "settings": {
+            "heading": "1 Year Warranty",
+            "heading_font_size": "heading-x-small"
+          }
+        }
+      },
+      "block_order": [
+        "text_ahhmFM",
+        "heading_mdMa4k",
+        "text_rNczAj",
+        "heading_XVqAix"
+      ],
+      "disabled": true,
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faq": {
+      "type": "section-accordion",
+      "blocks": {
+        "faq-1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I take care of my jewelry?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p><em><strong>14K Gold </strong></em></p><p>Scrub lightly with a fresh toothbrush and warm water. You can also buff your pieces using the cloth included in your order.</p><p><br/><em><strong>Sterling Silver</strong></em></p><p>Gently rub the surface with the  cloth included in your order.</p>"
+          }
+        },
+        "faq-2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have a warranty?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Yes! For 3 years from the date of purchase, we’ll take care of your product if any damage to the material  occurs. Simply <a href=\"/pages/contact\" title=\"Contact\">contact us</a> and we’ll send you a replacement.</p><p>Please note: This warranty does not cover lost items, scratches that come with normal wear and tear, improper use or storage of your product, and any modification to your product done by a third party.</p>"
+          }
+        },
+        "faq-3": {
+          "type": "text",
+          "settings": {
+            "title": "How do I use the polishing cloth?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Gently rub the surface of your piece with the polishing cloth. Never wash the polishing cloth as it will lose its effectiveness, and keep out of reach of children!</p>"
+          }
+        },
+        "faq-4": {
+          "type": "text",
+          "settings": {
+            "title": "Do you create custom pieces?",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>We're not able to build custom pieces at this time. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "default_open": false,
+        "title": "Care Instructions",
+        "heading_font_size": "heading-x-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "shipping": {
+      "type": "section-accordion",
+      "blocks": {
+        "shipping-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-green-shipment",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "International Shipping",
+            "heading_font_size": "heading-x-small",
+            "icon_alignment": "left",
+            "text": "<p>We are happy to announce we officially ship internationally! All orders are dispatched from our US warehouse within 2 - 3 business days.</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "shipping-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Order tracking",
+            "heading_font_size": "heading-x-small",
+            "icon_alignment": "left",
+            "text": "<p>Tracking numbers are automatically sent as soon as your order is packed. Please check your junk folder if you do not receive one 72hrs after placing your order.</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "shipping-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Get in touch",
+            "heading_font_size": "heading-x-small",
+            "icon_alignment": "left",
+            "text": "<p>If you have any questions about your order, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>. Our customer service is available Monday through Friday from 8am until 5pm est.</p>",
+            "text_alignment": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "shipping-0",
+        "shipping-1",
+        "shipping-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "default_open": false,
+        "title": "Shipping  & Returns",
+        "heading_font_size": "heading-x-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "about": {
+      "type": "section-accordion",
+      "blocks": {
+        "about-0": {
+          "type": "image",
+          "settings": {
+            "title": "Sustainable sourcing",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>We are committed to quality products that are manufactured ethically and sustainably. All of our pieces are traceable throughout the supply chain. We strive to ensure our products contribute to the well-being of people and planet, and our efforts put us on track towards a brighter future.</p>",
+            "aspect_ratio": 0.6
+          }
+        },
+        "about-1": {
+          "type": "image",
+          "settings": {
+            "title": "Ethical labor",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Our founders Christina Smith and  Clement Savant founded Broadcast to break the norms of the jewelry industry. Cheap, disposable jewelry creates an incentive structure to bid out the work to the cheapest factory available.  We need to vote with our dollars for a more equitable world.</p>",
+            "aspect_ratio": 0.6
+          }
+        },
+        "about-2": {
+          "type": "image",
+          "settings": {
+            "title": "Transparent values",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>We hold true to to who we are.  We believe in equality and justice for all, and those beliefs permeate the work that we do and the jewelry we make.  Everything we do stands for our values and we try to think, speak, and act in a framework of positive change.  Cast out your voice and make a difference. </p>",
+            "aspect_ratio": 0.6
+          }
+        }
+      },
+      "block_order": [
+        "about-0",
+        "about-1",
+        "about-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "default_open": false,
+        "title": "Sourcing & Materials",
+        "heading_font_size": "heading-x-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_VmncVj": {
+          "type": "heading",
+          "settings": {
+            "title": "Recycled Materials",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_HCfkAU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We partner with high quality jewellers who only use recycled gold, AAA-grade gemstones, and ethically sourced diamonds.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_VmncVj",
+        "text_HCfkAU"
+      ],
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "five-fifty-height-hero",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_content_YjMwAD": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_T6Gqc3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/for_everyday_wear_img_1.jpg",
+            "title": "FOR EVERYDAY WEAR",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "opacity",
+            "link_text": "Shop Dresses",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_bkDk7n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/for_everyday_wear_img_2.jpg",
+            "title": "FOR EVERYDAY WEAR",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "opacity",
+            "link_text": "Shop Now",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_T6Gqc3",
+        "image_bkDk7n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-overlay {background-color: unset; background: linear-gradient( to top, rgba(36, 32, 28, 0.6), rgba(36, 32, 28, 0) );}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-6",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "section_video_aMceMY": {
+      "type": "section-video",
+      "custom_css": [
+        ".hero__content {/* 8px button margin*/ padding: var(--outer) var(--outer) calc(var(--outer) - 8px);}"
+      ],
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/videoplayback.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-left",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-5",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_Vkhj6m": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_NATe3a": {
+          "type": "heading",
+          "settings": {
+            "title": "more artisan styles",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6hb3xE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed to honor the body and the earth, each piece invites you back to your natural rhythm.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_NATe3a",
+        "text_6hb3xE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 96,
+        "padding_bottom": 0
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "settings": {
+        "enable_tabs": false,
+        "heading_alignment": "text-left",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 42,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_divider_wjYhif",
+    "main",
+    "announcement",
+    "faq",
+    "shipping",
+    "about",
+    "hero",
+    "section_custom_content_YjMwAD",
+    "section_video_aMceMY",
+    "section_rich_text_Vkhj6m",
+    "related"
+  ]
+}

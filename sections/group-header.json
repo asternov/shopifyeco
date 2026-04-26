@@ -1,0 +1,340 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_discount": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Extra 15% off 3 items at checkout</strong><br/><em>Complimentary delivery on orders over $500</em></p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_discount"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "show_arrows": true,
+        "marquee_speed": 100,
+        "message_spacing": 10,
+        "text_font_size": "body-x-small",
+        "color_scheme": "scheme-2",
+        "color_scheme_home": "scheme-3",
+        "border_color": "rgba(0,0,0,0)",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "toolbar_image_bcenHr": {
+          "type": "toolbar_image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/powder_pink_small_bells_dress_organic_cocktail_dress_ombre_minimalist_dress_by_aya_sacred_wear_26.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "toolbar_image_zjLh7X": {
+          "type": "toolbar_image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/Bridal_Boho_Cape_Poncho_Hand_loomed_by_AYA_Sacred_Wear_7.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "toolbar": {
+          "type": "toolbar",
+          "settings": {
+            "text": "",
+            "menu": "toolbar-menu",
+            "show_border": true,
+            "border_color": "",
+            "border_opacity": 100,
+            "show_social_links": false,
+            "show_gift_card": false,
+            "show_locale_selector": false,
+            "show_locale_code": false,
+            "show_globe_icon": false,
+            "show_country_selector": false,
+            "show_country_name": false,
+            "show_country_flag": false,
+            "color_scheme": "scheme-1",
+            "padding_top": 7,
+            "padding_bottom": 7
+          }
+        },
+        "image_1": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/powder_pink_small_bells_dress_organic_cocktail_dress_ombre_minimalist_dress_by_aya_sacred_wear_26.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": "#fcfbf9"
+          }
+        },
+        "image_kcRx74": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/Bridal_Boho_Cape_Poncho_Hand_loomed_by_AYA_Sacred_Wear_7.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-mini",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": "#fcfbf9"
+          }
+        },
+        "image_knFybr": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/powder_pink_small_bells_dress_organic_cocktail_dress_ombre_minimalist_dress_by_aya_sacred_wear_26.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": "#fcfbf9"
+          }
+        },
+        "image_MyzLW8": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/Bridal_Boho_Cape_Poncho_Hand_loomed_by_AYA_Sacred_Wear_7.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "overlay_type": "text",
+            "title": "",
+            "heading_font_size": "heading-mini",
+            "link_text": "",
+            "text_font_size": "body-medium",
+            "link": "",
+            "text_color": "#fcfbf9"
+          }
+        }
+      },
+      "block_order": [
+        "toolbar_image_bcenHr",
+        "toolbar_image_zjLh7X",
+        "toolbar",
+        "image_1",
+        "image_kcRx74",
+        "image_knFybr",
+        "image_MyzLW8"
+      ],
+      "custom_css": [
+        ".header__logo__text {font-family: var(--FONT-STACK-HEADING); font-size: 36px; line-height: 1.3; white-space: nowrap; letter-spacing: 0;}",
+        "@media only screen and (max-width: 749px) {.header__logo__text {font-size: 24px; }}",
+        ".header__mobile .header__logo__text {font-family: var(--FONT-STACK-HEADING); font-size: 18px; letter-spacing: 0;}",
+        ".icon-search {--icon-size: 11px;}",
+        ".icon-profile-circled,.icon-cart {--icon-size: 20px;}"
+      ],
+      "settings": {
+        "header_sticky": false,
+        "enable_search": true,
+        "header_style": "logo_center_menu_left",
+        "show_separator_line": false,
+        "header_border_color": "",
+        "separator_opacity": 100,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo_max_limit": 120,
+        "logo_max_limit_mobile": 120,
+        "main_menu_linklist": "compact-main-menu",
+        "enable_call_to_action": false,
+        "button_text": "",
+        "button_link": "",
+        "button_type": "btn--primary",
+        "show_social_icons": false,
+        "secondary_menu_linklist": "",
+        "show_locale_selector": false,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "transparent_home": true,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_product_page": false,
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "mobile_menu": {
+      "type": "mobile-menu",
+      "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "4-items-menu",
+            "text_font_size": "body-x-large",
+            "highlight_item": "Sale",
+            "highlight_item_color": "#d02e2e",
+            "padding": false,
+            "padding_bottom": 14
+          }
+        },
+        "divider_1": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 8
+          }
+        },
+        "text_arrivals": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Shop our new arrivals:",
+            "align_text": "text-left",
+            "text_font_size": "body-medium",
+            "padding_bottom": 14
+          }
+        },
+        "product_1": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image_width": 15,
+            "text_font_size": "body-small",
+            "bg_color": "",
+            "padding": false,
+            "pin_to_bottom": false,
+            "padding_bottom": 14
+          }
+        },
+        "product_2": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image_width": 15,
+            "text_font_size": "body-small",
+            "bg_color": "",
+            "padding": false,
+            "pin_to_bottom": false,
+            "padding_bottom": 14
+          }
+        },
+        "divider_2": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 8
+          }
+        },
+        "socials": {
+          "type": "socials",
+          "settings": {
+            "width": "full",
+            "pin_to_bottom": false,
+            "padding_bottom": 10
+          }
+        },
+        "divider_3": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 14
+          }
+        },
+        "localization": {
+          "type": "localization",
+          "settings": {
+            "show_locale_selector": true,
+            "show_locale_code": false,
+            "show_globe_icon": true,
+            "show_country_selector": true,
+            "show_country_name": false,
+            "show_country_flag": true,
+            "width": "full",
+            "pin_to_bottom": true,
+            "padding_bottom": 14
+          }
+        }
+      },
+      "block_order": [
+        "menu",
+        "divider_1",
+        "text_arrivals",
+        "product_1",
+        "product_2",
+        "divider_2",
+        "socials",
+        "divider_3",
+        "localization"
+      ],
+      "settings": {
+        "logo_max_limit": 120,
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "mobile_menu"
+  ]
+}

@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_yhBbwk": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "section_rich_text_hh6UXw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_DH7hVL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Home / Collections",
+            "padding_bottom": 16
+          }
+        },
+        "heading_4UecCy": {
+          "type": "heading",
+          "settings": {
+            "title": "Collections",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DH7hVL",
+        "heading_4UecCy"
+      ],
+      "custom_css": [
+        ".hero__content__wrapper.text-left.wrapper {margin-left: 48px; padding-left: 0px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "collection_CCnF8p": {
+          "type": "collection",
+          "settings": {
+            "collection": "ananda-shakti-ss-2026",
+            "collection_name": ""
+          }
+        },
+        "collection_KdNMDE": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts-and-pants",
+            "collection_name": ""
+          }
+        },
+        "collection_ctNgmD": {
+          "type": "collection",
+          "settings": {
+            "collection": "silk-garments",
+            "collection_name": ""
+          }
+        },
+        "collection_tjUQVb": {
+          "type": "collection",
+          "settings": {
+            "collection": "limited-edition",
+            "collection_name": ""
+          }
+        },
+        "collection_nmAepV": {
+          "type": "collection",
+          "settings": {
+            "collection": "flower-power",
+            "collection_name": ""
+          }
+        },
+        "collection_37G4LN": {
+          "type": "collection",
+          "settings": {
+            "collection": "sustainable-clearance",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_CCnF8p",
+        "collection_KdNMDE",
+        "collection_ctNgmD",
+        "collection_tjUQVb",
+        "collection_nmAepV",
+        "collection_37G4LN"
+      ],
+      "custom_css": [
+        "div.collection-block__content {height: 100%; width: 51%; text-align: center; padding: 4px; margin: auto;}",
+        "div.collection-block {min-height: 60px;}",
+        ".collection-block__content p:nth-of-type(2) {text-align: justify;}"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_divider_yhBbwk",
+    "section_rich_text_hh6UXw",
+    "main"
+  ]
+}

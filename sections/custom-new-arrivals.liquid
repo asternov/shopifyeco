@@ -1,0 +1,121 @@
+{% schema %}
+{
+  "name": "New Arrivals (custom)",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main image (left side)"
+    },
+    {
+      "type": "url",
+      "id": "main_image_link",
+      "label": "Main image link (optional)",
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "secondary_image_1",
+      "label": "Secondary image 1"
+    },
+    {
+      "type": "url",
+      "id": "secondary_image_1_link",
+      "label": "Secondary image 1 link (optional)",
+    },
+    {
+      "type": "text",
+      "id": "caption_1",
+      "label": "Caption for image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "secondary_image_2",
+      "label": "Secondary image 2"
+    },
+    {
+      "type": "url",
+      "id": "secondary_image_2_link",
+      "label": "Secondary image 2 link (optional)",
+    },
+    {
+      "type": "text",
+      "id": "caption_2",
+      "label": "Caption for image 2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Arrivals (custom)"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="new-arrivals-section wrapper--full-padded section-padding">
+  <div class="new-arrivals-section__main">
+    {% if section.settings.main_image != blank %}
+      {% if section.settings.main_image_link != blank %}
+        <a href="{{ section.settings.main_image_link }}" class="new-arrivals-section__main-image-link"><img src="{{ section.settings.main_image | image_url: width:700 }}" alt="Main image" class="new-arrivals-section__main-image" width="700" height="auto"></a>
+      {% else %}
+        <img src="{{ section.settings.main_image | image_url: width:700 }}" alt="Main image" class="new-arrivals-section__main-image" width="700" height="auto">
+      {% endif %}
+    {% endif %}
+  </div>
+  <div class="new-arrivals-section__right">
+    <div class="new-arrivals-section__right-content">
+    {% if section.settings.title != blank %}
+      <p role="heading" aria-level="2" class="new-arrivals-section__title">{{ section.settings.title }}</p>
+    {% endif %}
+    {% if section.settings.subtitle != blank %}
+      <h3 class="new-arrivals-section__subtitle">{{ section.settings.subtitle }}</h3>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <div class="new-arrivals-section__description">{{ section.settings.description }}</div>
+    {% endif %}
+
+    <div class="new-arrivals-section__secondary-images">
+      <div class="new-arrivals-section__secondary-block">
+        {% if section.settings.secondary_image_1 != blank %}
+          {% if section.settings.secondary_image_1_link != blank %}
+            <a href="{{ section.settings.secondary_image_1_link }}" class="new-arrivals-section__secondary-link"><img src="{{ section.settings.secondary_image_1 | image_url: width:350 }}" alt="Secondary image 1" class="new-arrivals-section__secondary-image" width="350" height="auto"></a>
+          {% else %}
+            <img src="{{ section.settings.secondary_image_1 | image_url: width:350 }}" alt="Secondary image 1" class="new-arrivals-section__secondary-image" width="350" height="auto">
+          {% endif %}
+        {% endif %}
+        {% if section.settings.caption_1 != blank %}
+          <div class="new-arrivals-section__caption">{{ section.settings.caption_1 }}</div>
+        {% endif %}
+      </div>
+      <div class="new-arrivals-section__secondary-block">
+        {% if section.settings.secondary_image_2 != blank %}
+          {% if section.settings.secondary_image_2_link != blank %}
+            <a href="{{ section.settings.secondary_image_2_link }}" class="new-arrivals-section__secondary-link"><img src="{{ section.settings.secondary_image_2 | image_url: width:350 }}" alt="Secondary image 2" class="new-arrivals-section__secondary-image" width="350" height="auto"></a>
+          {% else %}
+            <img src="{{ section.settings.secondary_image_2 | image_url: width:350 }}" alt="Secondary image 2" class="new-arrivals-section__secondary-image" width="350" height="auto">
+          {% endif %}
+        {% endif %}
+        {% if section.settings.caption_2 != blank %}
+          <div class="new-arrivals-section__caption">{{ section.settings.caption_2 }}</div>
+        {% endif %}
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div>

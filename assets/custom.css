@@ -1,0 +1,386 @@
+/* ========== Header ========== */
+.header__mobile {
+  grid-template-columns: auto 1fr auto;
+  gap: 4px;
+  padding-top: 1em;
+}
+
+.toolbar.has-border::before,
+.theme__header.has-border::before {
+  border-width: 0.5px;
+}
+
+/* ========== Cart ========== */
+.cart__item__image a {
+  height: auto;
+  aspect-ratio: 0.77;
+}
+
+.cart__item__image img {
+  object-fit: cover;
+}
+
+.cart__item__content {
+  padding-left: 16px;
+}
+
+.cart__items, .cart__items .cart__item, .cart__items .cart__item:last-child, .free-shipping {
+  border-color: #F5EEE4;
+}
+
+.cart__item:not(:last-child)::after {
+  display: none !important; 
+}
+
+.free-shipping__progress-bar {
+  display: none;
+}
+
+.remove-discount {
+  display: none;
+}
+
+@media only screen and (min-width: 750px) {
+  .free-shipping__default-message, .free-shipping__success-message, .cart__total__label {
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .cart__items .cart__price {
+    text-align: center;
+  }
+}
+
+/* ========== Toolvar with nested menu(custom) ========== */
+.toolbar__dropdown {
+  position: fixed;
+  top: 0;
+  padding-top: 46px;
+}
+
+.toolbar__menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.toolbar__menu__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex: 1;
+}
+
+.toolbar__menu__wrapper .menu__item {
+  display: flex;
+  align-items: center;
+}
+
+/* ========== Search in toolbar fix ========== */
+.toolbar__utility header-search-popdown {
+  position: static;
+}
+
+.toolbar__utility header-search-popdown .search-popdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 6002;
+}
+
+.toolbar__utility header-search-popdown .search-popdown + .underlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 6001;
+}
+
+.navlink--search {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart__item {
+  border-bottom: none;
+}
+.cart__item:not(:last-child)::after {
+  content: "";
+  position: relative;
+  top: var(--inner);
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #f5eee4;
+}
+
+.cart__foot__inner {
+  border-top: none;
+}
+.cart__foot__inner::before {
+  content: "";
+  position: relative;
+  bottom: var(--inner);
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #f5eee4;
+}
+
+/* Drawer modal styles - dialog that behaves like drawer */
+dialog .size-chart-content {
+  padding-inline: 28px;
+}
+
+dialog .drawer__head {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  padding: var(--inner);
+  background: var(--bg);
+  border-bottom: none;
+}
+
+/* ========== Accordion toggle icons (+ / -) ========== */
+.accordion__toggle-icon {
+  --icon-size: 10px;
+  margin-left: auto;
+  display: grid;
+  place-items: center;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.accordion__toggle-icon .icon {
+  stroke: none;
+  fill: var(--icons, currentColor);
+}
+
+.accordion__toggle-icon-minus {
+  display: none;
+}
+
+.accordion[open] .accordion__toggle-icon-plus,
+details.accordion[open] .accordion__toggle-icon-plus,
+[data-collapsible-trigger][aria-expanded="true"] .accordion__toggle-icon-plus,
+.accordion__title[aria-expanded="true"] .accordion__toggle-icon-plus {
+  display: none;
+}
+
+.accordion[open] .accordion__toggle-icon-minus,
+details.accordion[open] .accordion__toggle-icon-minus,
+[data-collapsible-trigger][aria-expanded="true"] .accordion__toggle-icon-minus,
+.accordion__title[aria-expanded="true"] .accordion__toggle-icon-minus {
+  display: block;
+}
+
+/* Guard against buggy open="false" states: force plus, hide minus */
+details.accordion[open="false"] .accordion__toggle-icon-plus,
+.accordion[open="false"] .accordion__toggle-icon-plus,
+[data-collapsible-trigger][aria-expanded="false"] .accordion__toggle-icon-plus,
+.accordion__title[aria-expanded="false"] .accordion__toggle-icon-plus {
+  display: block;
+}
+
+details.accordion[open="false"] .accordion__toggle-icon-minus,
+.accordion[open="false"] .accordion__toggle-icon-minus,
+[data-collapsible-trigger][aria-expanded="false"] .accordion__toggle-icon-minus,
+.accordion__title[aria-expanded="false"] .accordion__toggle-icon-minus {
+  display: none;
+}
+
+/* Apply accordion icon styles to filter group headings */
+
+.filter-group__heading {
+  display: flex;
+}
+
+.filter-group__heading .accordion__toggle-icon {
+  --icon-size: 10px;
+  margin-left: auto;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.filter-group__heading .accordion__toggle-icon .icon {
+  --icon-size: 10px;
+  position: static;
+  top: auto;
+  right: auto;
+  transform: none;
+  stroke: none;
+  fill: var(--icons, currentColor);
+}
+
+/* Filter group accordion icon states - closed by default */
+.filter-group__heading .accordion__toggle-icon-minus {
+  display: none;
+}
+
+.filter-group__heading .accordion__toggle-icon-plus {
+  display: block;
+}
+
+/* Filter group accordion icon states - when open */
+details[open="true"] > .filter-group__heading .accordion__toggle-icon-plus,
+.filter-group__heading[aria-expanded="true"] .accordion__toggle-icon-plus {
+  display: none;
+}
+
+details[open="true"] > .filter-group__heading .accordion__toggle-icon-minus,
+.filter-group__heading[aria-expanded="true"] .accordion__toggle-icon-minus {
+  display: block;
+}
+
+/* Guard against closed states for filter groups (open="false" or no open attribute) */
+details:not([open="true"])
+  > .filter-group__heading
+  .accordion__toggle-icon-plus,
+.filter-group__heading[aria-expanded="false"] .accordion__toggle-icon-plus {
+  display: block;
+}
+
+details:not([open="true"])
+  > .filter-group__heading
+  .accordion__toggle-icon-minus,
+.filter-group__heading[aria-expanded="false"] .accordion__toggle-icon-minus {
+  display: none;
+}
+
+/* Product accordion uses absolute-positioned icons on the right */
+.product__block--accordion .accordion__title .accordion__toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  margin-left: 0;
+}
+
+/* ========== Swap filters and sort buttons - filters on right, sort on left ========== */
+.collection__nav {
+  flex-direction: row-reverse;
+}
+
+/* Adjust alignment when both filters and sort are present */
+.collection__nav--filter.collection__nav--sort {
+  justify-content: space-between;
+}
+
+/* Ensure filter button stays on the right */
+.collection__nav--filter {
+  justify-content: flex-end;
+}
+
+/* Ensure sort button stays on the left when alone */
+.collection__nav--sort:not(.collection__nav--filter) {
+  justify-content: flex-start;
+}
+
+/* ========== Custom filters and sort slide-out panel ========== */
+.collection__sidebar__slide-out {
+  right: auto;
+  left: 100%;
+  border-left: none;
+  border-right: 1px solid var(--border);
+}
+
+.collection__sidebar__slide-out.expanded {
+  transform: translateX(-100%);
+}
+
+.collection__sidebar {
+  --inner: 28px;
+}
+
+.filter-group:not(.filter-group--hidden) ~ .filter-group {
+  padding-top: 14px;
+  border-top: 0.5px solid #f5eee4;
+  margin-top: 14px;
+}
+
+.collection__sidebar {
+  padding-block: 14px;
+}
+
+.collection__sidebar__head {
+  padding-bottom: 4px;
+  border-bottom: none;
+}
+.collection__sidebar__head h3 {
+  display: none;
+}
+.filter-group__heading {
+  border-bottom: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.collection__sidebar__buttons {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 12px;
+}
+
+.popout--group {
+  display: flex;
+  align-items: center;
+  .collection-products-count {
+    font-size: var(--FONT-SIZE-BASE);
+    color: #443C36;
+  }
+  .popout__toggle {
+    padding-left: 14px;
+  }
+  .popout__toggle {
+    font-size: var(--FONT-SIZE-BASE);
+    .icon {
+      width: 8px;
+      margin-left: 8px;
+    }
+  }
+}
+
+/* ========== Product page footer ========== */
+.template-product .footer__block--text .rte h2 {
+  color: #24201C !important;
+}
+
+/* ========== Breadcrumbs separator styles ========== */
+.section-breadcrumbs--slash .breadcrumbs__arrow {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background-color: transparent;
+  opacity: 0.6;
+  font-size: 14px;
+  color: var(--text);
+  margin: 0;
+}
+
+.section-breadcrumbs--slash .breadcrumbs__arrow::before {
+  content: '\00a0/';
+}
+
+.template-product .site-footer {
+  background-image: none !important;
+}
+
+/* ========== Collection page styles ========== */
+.collection__title {
+  padding-top: 6px;
+}
+
+@media only screen and (min-width: 750px) {
+   .collection__title .hero__title {
+    font-size: 64px;
+  }
+}

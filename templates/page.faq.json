@@ -1,0 +1,490 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_3kGmtg": {
+      "type": "section-divider",
+      "custom_css": [
+        ".divider {--border: #24201c; border-width: 0.5px 0 0;}"
+      ],
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "rich_text": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_HKVhLx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "All your questions answered",
+            "padding_bottom": 0
+          }
+        },
+        "heading_DdkVf4": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_pGLmcp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For any other questions, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HKVhLx",
+        "heading_DdkVf4",
+        "text_pGLmcp"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "sidebar": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_1": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "accordion_1": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+          }
+        },
+        "accordion_2": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
+          }
+        },
+        "header_2": {
+          "type": "header",
+          "settings": {
+            "title": "Discount"
+          }
+        },
+        "accordion_3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use more than one discount code?",
+            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
+          }
+        },
+        "header_3": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_1",
+        "accordion_1",
+        "accordion_2",
+        "header_2",
+        "accordion_3",
+        "header_3",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_font_size": "heading-x-small",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Secure transactions",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-smile",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Simple checkout",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Get in touch",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-x-small",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "scheme-3",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_qAerqF": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_J4cK7b": {
+          "type": "heading",
+          "settings": {
+            "title": "Products"
+          }
+        },
+        "question_43imax": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What materials do you use for your garments?",
+            "content": "<p>We work exclusively with natural and carefully selected materials such as silk, linen, cotton, and other plant-based fibers.</p><p>Our fabrics are chosen for their breathability, longevity, and the way they move with the body — becoming softer and more beautiful with time.</p><p>Each textile is sourced and tested with intention, honoring both the wearer and the earth.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_VWQwdK": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Are all items handmade?",
+            "content": "<p>Yes. Every AYA Sacred Wear piece is handmade.</p><p>From weaving and dyeing to embroidery, braiding, and finishing — our garments are created by skilled artisans in Bali and Java using traditional techniques. Small variations are a natural part of this process and a signature of true craftsmanship.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_JxwFA3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How are the garments dyed?",
+            "content": "<p>Our garments are dyed using botanical dyes derived from plants, roots, leaves, bark, and natural minerals.</p><p>This process is slow, seasonal, and guided by nature — which means no two pieces are ever exactly the same. Subtle variations in tone are not imperfections, but living expressions of natural dyeing.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_difYcn": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you restock sold-out items?",
+            "content": "<p>Some designs may return in small quantities, while others are created as limited or one-of-a-kind pieces.</p><p>Because our work is entirely handmade and naturally dyed, restocks are never guaranteed. We recommend joining our newsletter or following us on Instagram to stay informed about new drops and returning styles.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "heading_beBxka": {
+          "type": "heading",
+          "settings": {
+            "title": "Size & Fit"
+          }
+        },
+        "question_yyBXxe": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I find the right size?",
+            "content": "<p>Each product page includes detailed measurements and fit notes.</p><p>If you are unsure between sizes or need guidance, we are happy to assist — simply contact us with your measurements and we will help you choose the best fit.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_jNJwn3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do your styles run true to size?",
+            "content": "<p>Most of our designs follow standard sizing, however many silhouettes are intentionally relaxed, fluid, or adjustable.<br/></p><p>Fit may vary depending on the fabric and style. We recommend checking the garment measurements rather than relying solely on your usual size.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_yqaxY4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can I request custom sizing?",
+            "content": "<p>In certain cases, custom sizing may be available.<br/></p><p>As each piece requires additional time and artisan work, custom orders are considered individually and are final sale. Please contact us before placing your order to discuss availability.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "heading_Mmftpj": {
+          "type": "heading",
+          "settings": {
+            "title": "Worldwide Shipping"
+          }
+        },
+        "question_NUhNaz": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Where do you ship from?",
+            "content": "<p>All orders are shipped directly from Bali, Indonesia.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_wkdbCq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you offer international shipping?",
+            "content": "<p>Yes, we ship worldwide.<br/></p><p>Shipping rates and options are calculated at checkout based on your location.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_QJC8ph": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How long does shipping take?",
+            "content": "<p>Processing time is usually 2–5 business days.</p><p>Estimated delivery times:</p><p> • Asia: 5–10 business days</p><p> • Europe & Australia: 7–14 business days</p><p> • USA & Rest of the world: 10–21 business days</p><p>Please note that delivery times may vary due to customs procedures and seasonal conditions.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_83fN6J": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Will I have to pay customs fees?",
+            "content": "<p>Customs duties and import taxes are determined by your country and are the responsibility of the recipient.</p><p>We recommend checking your local customs regulations prior to ordering, as we are unable to control or predict these charges.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "heading_wkCiUY": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns"
+          }
+        },
+        "question_rBJgim": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns on unworn, unused items within 7 days of delivery.</p><p>Due to the delicate nature of our fabrics and the handmade process, items must be returned in original condition. Custom orders, sale items, and custom-sized pieces are final sale.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_QHBzKF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can I exchange an item for another size?",
+            "content": "<p>Exchanges may be possible depending on availability.</p><p>Please contact us as soon as possible after receiving your order, and we will do our best to assist.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_RBnd7M": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I start a return?",
+            "content": "<p>To initiate a return, please contact us via email with your order number and reason for return.</p><p>Once approved, you will receive detailed return instructions.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "heading_RGdBbd": {
+          "type": "heading",
+          "settings": {
+            "title": "Garment Care"
+          }
+        },
+        "question_3ggFrn": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How should I wash my garment?",
+            "content": "<p>We recommend gentle hand washing in cold water using a mild, natural detergent.<br/></p><p>Avoid soaking, harsh chemicals, or direct sunlight when drying. Lay flat or hang to dry in shade.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_FTynXR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Will the color fade over time?",
+            "content": "<p>Botanical dyes evolve naturally.<br/></p><p>With proper care, your garment will age beautifully, developing a softer and more nuanced tone over time. This gentle evolution is part of the living nature of plant-dyed textiles.</p>",
+            "show_icon": false,
+            "icon_name": "icon-check",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_J4cK7b",
+        "question_43imax",
+        "question_VWQwdK",
+        "question_JxwFA3",
+        "question_difYcn",
+        "heading_beBxka",
+        "question_yyBXxe",
+        "question_jNJwn3",
+        "question_yqaxY4",
+        "heading_Mmftpj",
+        "question_NUhNaz",
+        "question_wkdbCq",
+        "question_QJC8ph",
+        "question_83fN6J",
+        "heading_wkCiUY",
+        "question_rBJgim",
+        "question_QHBzKF",
+        "question_RBnd7M",
+        "heading_RGdBbd",
+        "question_3ggFrn",
+        "question_FTynXR"
+      ],
+      "custom_css": [
+        ".accordion__heading {font-family: var(--FONT-STACK-SUBHEADING); font-size: 20px; text-transform: none; font-weight: 500;}",
+        ".accordion__title {font-family: var(--FONT-STACK-SUBHEADING); font-size: 18px; text-transform: none; font-weight: 400;}"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_divider_3kGmtg",
+    "main",
+    "rich_text",
+    "sidebar",
+    "icons",
+    "section_accordion_group_qAerqF"
+  ]
+}

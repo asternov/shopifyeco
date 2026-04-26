@@ -1,0 +1,562 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_rich_text_crzEMm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_zKwN74": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_gK7zB3": {
+          "type": "heading",
+          "settings": {
+            "title": "Discover the essence  AYA Sacred Wear. Crafted in Bali's embrace, our collection intertwines the spirit of the nomad with the rhythms of the earth.",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_xfCzKC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_yMcKyJ": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zKwN74",
+        "heading_gK7zB3",
+        "text_xfCzKC",
+        "buttons_yMcKyJ"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_divider_wxgNhV": {
+      "type": "section-divider",
+      "custom_css": [
+        ".divider {--border: #24201c; border-width: 0.5px 0 0;}"
+      ],
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "double-1": {
+      "type": "section-double",
+      "blocks": {
+        "heading-1-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Timeless garments to dress your inner spirit",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text-1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the depths of the Indonesian islands, where the spirit of volcanoes meets the power of oceans, nature bestows plants with its life-giving energy. Here, every breath of the earth is imbued with the strength of the elements. <br/><br/> Local artisans, with deep reverence, gather the gifts of this generous land: leaves, roots, and flowers. They unite them with the five elements — water, fire, earth, air, and ether — to create unique natural dyes, infusing fabrics with the essence of living nature.  <br/><br/>AYA creates a space where ancient traditions are reborn, and every thread absorbs the wisdom of the ages. This is a craft where time slows, allowing culture to thrive once more.  <br/><br/>With care and devotion, artisans handcraft sacred patterns — codes of elevated states. These patterns awaken the fabrics, transforming garments into vessels that support harmony and balance throughout the day.  <br/><br/>Before choosing your AYA garment, ask yourself: what state of being do you wish to embody today? <br/><br/><strong>Each piece is an Avatar — a reflection of your spirit, designed to reveal your essence.</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading-1-1",
+        "text-1-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.brick__block {background-image: url(\"https://cdn.shopify.com/s/files/1/0223/5200/3146/files/Paper_02_about.jpg?v=1766317656&width=1080\"); background-size: cover; background-position: center; background-repeat: no-repeat; }}",
+        ".hero__rte p:last-child {text-align: justify;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/powder_pink_small_bells_dress_organic_cocktail_dress_ombre_minimalist_dress_by_aya_sacred_wear_26.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_VMGBnN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "image_7NyUbT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/what_we_stand_for.png",
+            "image_width": 100,
+            "padding_bottom": 42
+          }
+        },
+        "heading_eLQ98L": {
+          "type": "heading",
+          "settings": {
+            "title": "what we stand for",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 0,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_7NyUbT",
+        "heading_eLQ98L"
+      ],
+      "custom_css": [
+        ".hero__media {max-width: 300px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo_2026-02-02_15.03.22.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "aya community",
+            "heading_font_size": "heading-small",
+            "text": "<p>We witness AYA Sacred Wear traveling across the world — adorning the planet through weddings, sacred ceremonies, meaningful gatherings, and unforgettable encounters.</p><p>It is a profound miracle for us to see our creations become part of life’s most important moments.</p><p>To dress this planet, to accompany love, celebration, and connection, is our greatest honor.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6393.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "sustainable materials",
+            "heading_font_size": "heading-small",
+            "text": "<p>Made in the very heart of beautiful Bali island by loving hands of local artisans. </p><p>AYA especially focus on fabrics that are hand-spun and hand-woven, supporting ancient skills and traditional crafts. Thriving to go deeper to the source of all the materials - from the seed planted to the people who weave the fabric. Our vision is to be able to connect with each being involved in the making from the very source.</p><p>Being able to Source the most ethical, fair trade, Eco and conscious materials</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2-2.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "giving back",
+            "heading_font_size": "heading-small",
+            "text": "<p>All AYA Sacred Wear production is rooted in Bali.</p><p>We collaborate closely with local artisans, family-run workshops, and village communities — from handwoven fabrics and natural dyeing to handcrafted accessories and finishing details.<br/></p><p>By producing locally, we actively support livelihoods, preserve traditional skills, and contribute to the wellbeing of the communities behind each piece.</p><p>Every garment carries the hands, stories, and care of the people who create it — transforming craftsmanship into a shared, living exchange..<br/><br/></p><p>AYA Sacred Wear is a living community, and we are always open to conscious collaborations, shared visions, and creative exchanges.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3"
+      ],
+      "custom_css": [
+        ".column__text p {text-align: justify;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 42,
+        "padding_bottom": 96,
+        "heading_tag": "automatic"
+      }
+    },
+    "double-2": {
+      "type": "section-double",
+      "blocks": {
+        "heading-2-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Creativity is the greatest rebellion in existence.",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text-2-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 26
+          }
+        },
+        "image_CaC9rM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/amma_sign.svg",
+            "image_width": 30,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading-2-1",
+        "text-2-1",
+        "image_CaC9rM"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.hero__media {position: relative; left: -14px; }}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/black_boho_goddess_dress_open_sides_macrame_robes_dress_organic_dress_by_aya_sacred_wear_8.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_announcement_f9XBVx": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_JYWARd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HANDMADE GARMENTS</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_6wh38J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_m6Pm4e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SUSTAINABLE MATERIALS</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_UXbkQB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_MnPMi6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SLOW FASHION</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_kGrxR7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_qNPV6k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ETHICAL SOURCING</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_BthVdJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_PJfRBJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ARTISANAL DESIGN</p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_7DmEhX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>●</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_JYWARd",
+        "text_6wh38J",
+        "text_m6Pm4e",
+        "text_UXbkQB",
+        "text_MnPMi6",
+        "text_kGrxR7",
+        "text_qNPV6k",
+        "text_BthVdJ",
+        "text_PJfRBJ",
+        "text_7DmEhX"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "collections-list": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "ananda-shakti-ss-2026",
+            "title": "New Collection"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-cotton-dresses",
+            "title": "Dresses"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "artisan-cover-ups-capes",
+            "collection_image": "shopify://shop_images/photo_2026-02-02_15.10.42.jpg",
+            "title": "Cover-ups & Shawls"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "silk-garments",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4"
+      ],
+      "custom_css": [
+        ".grid__heading {font-size: 14px; font-family: var(--FONT-STACK-SUBHEADING); text-transform: none; font-weight: 400;}",
+        ".grid__heading-text {margin: 0; text-align: left;}",
+        ".grid__description h4 {margin-top: 4px;}",
+        "@media only screen and (min-width: 750px) {.grid__heading-holder {--gutter: 42px; }}"
+      ],
+      "settings": {
+        "title": "Now Available",
+        "heading_font_size": "heading-medium",
+        "description": "<h4>Shop aya sacred wear </h4>",
+        "text_font_size": "body-small",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1.2,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_GVQBnM": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_jVNtUP": {
+          "type": "heading",
+          "settings": {
+            "title": "“we only use natural, hand-spun, and hand-woven fabrics, aiming to connect with the source of our materials and the artisans who craft them.”",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jVNtUP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 128
+      }
+    }
+  },
+  "order": [
+    "section_rich_text_crzEMm",
+    "main",
+    "section_divider_wxgNhV",
+    "double-1",
+    "section_rich_text_VMGBnN",
+    "columns",
+    "double-2",
+    "section_announcement_f9XBVx",
+    "collections-list",
+    "section_rich_text_GVQBnM"
+  ]
+}

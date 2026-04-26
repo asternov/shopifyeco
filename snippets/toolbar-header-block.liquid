@@ -1,0 +1,109 @@
+{% comment %}
+  Toolbar header block content for dropdown images
+
+  Accepts:
+  * image: (Object) the image object
+  * aspect_ratio: (Float) aspect ratio
+  * wide_image: (Boolean) whether image is wide
+  * title: (String) heading text
+  * text: (String) description text
+  * link: (URL) link URL
+  * overlay_type: (String) overlay type
+  * text_color: (Color) text color
+  * heading_size: (String) heading font size class
+  * image_count: (Int) the number of images per menu item
+  * link_columns: (Int) the number of columns with links. Max: 3
+  * only_images: (Boolean) whether we have images only or images with links
+{% endcomment %}
+
+{%- liquid
+  assign grid_style = settings.grid_style
+  assign animation_name = 'drawer-items-fade'
+  assign animation_duration = 500
+  assign width_class = 'menu__block--narrow'
+  assign aspect_ratio = 1 | divided_by: aspect_ratio
+  assign link_columns = link_columns | at_most: 3 | default: 1
+  
+  if wide_image
+    assign width_class = 'menu__block--wide'
+    assign link_columns = 1
+  endif
+
+  assign overlay_type = overlay_type | default: 'text'
+  assign opacity_overlay = false
+  assign text_underlay = false
+  if overlay_type == 'opacity'
+    assign opacity_overlay = true
+  elsif overlay_type == 'text'
+    assign text_underlay = true
+  endif
+
+  assign full_width = '100vw'
+  if grid_style == 'classic'
+    assign full_width = '(100vw - 100px)'
+  endif
+
+  if only_images
+    assign columns = image_count
+  else
+    assign columns = image_count | plus: link_columns
+  endif
+
+  assign sizes = '(min-width: 990px) calc(' | append: full_width | append: ' / ' | append: columns | append: '), (min-width: 380px) 350px, calc(100vw - 30px)'
+-%}
+
+<div class="menu__block {{ width_class }}">
+  <div
+    class="header__dropdown__image"
+    {% unless text_color == 'rgba(0,0,0,0)' or text_color == blank %}
+      style="--text: {{ text_color }};"
+    {% endunless %}
+    data-stagger-first
+  >
+    {%- if link != blank -%}
+      <a href="{{ link }}" class="link-over-image">
+    {%- else -%}
+      <div class="link-over-image">
+    {%- endif -%}
+
+    <div class="hero__content__wrapper align--bottom-left">
+      <div
+        class="
+          hero__content hero__content--transparent
+          {% if text_underlay %} backdrop--radial{% endif %}
+        "
+      >
+        {%- if title != blank -%}
+          <h2 class="hero__title {{ heading_size }}">
+            {{ title | escape }}
+          </h2>
+        {%- endif -%}
+
+        {%- if text != blank -%}
+          <p class="hero__description body-medium">
+            {{ text | escape }}
+          </p>
+        {%- endif -%}
+      </div>
+    </div>
+
+    {%- if link != blank -%}
+      </a>
+    {%- else -%}
+      </div>
+    {%- endif -%}
+
+    {%- if opacity_overlay -%}
+      <div class="image-overlay"></div>
+    {%- endif -%}
+
+    {%- render 'image',
+      image: image,
+      aspect_ratio: aspect_ratio,
+      sizes: sizes,
+      loading: 'lazy',
+      fetchpriority: 'high'
+    -%}
+  </div>
+</div>
+

@@ -1,0 +1,93 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_KLMQxA": {
+      "type": "section-divider",
+      "custom_css": [
+        ".divider {--border: #24201c; border-width: 0.5px 0 0;}"
+      ],
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured": {
+      "type": "featured-posts",
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/who-we-are",
+            "image": "shopify://shop_images/5256e3fdde5c126ff18119f074c4644634fb475e.jpg",
+            "subheading": "Featured Journal"
+          }
+        }
+      },
+      "block_order": [
+        "feat"
+      ],
+      "custom_css": [
+        ".editorial__subheading {text-transform: none;}"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "heading_font_size": "heading-medium",
+        "show_button": true,
+        "button_text": "Read more",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "width": "wrapper--full",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "custom_css": [
+        ".btn--text:hover span::after {transform: translate3d(5px, 0, 0); transition: transform 0.5s ease;}",
+        ".btn--text span {display: flex; align-items: center; gap: 8px; line-height: 1;}",
+        ".btn--text:not(.btn--text-no-underline) span::after {position: relative; display: inline-block; width: 11px; height: 8px; background-image: url(\"https://cdn.shopify.com/s/files/1/0223/5200/3146/files/icon-button-arrow-right.svg?v=1767102047\"); background-repeat: no-repeat; background-size: contain;}"
+      ],
+      "settings": {
+        "show_title": false,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "aspect_ratio": 1,
+        "title_font_size": "heading-x-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "grid": 3,
+        "rows": 2,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 100,
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_divider_KLMQxA",
+    "featured",
+    "main"
+  ]
+}

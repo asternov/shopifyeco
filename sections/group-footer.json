@@ -1,0 +1,134 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "About the Brand",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>AYA Sacred Wear is a Bali-based, bohemian, organic fashion brand known for its handcrafted, plant-dyed clothing and commitment to sustainability.</p>",
+            "column_width": 25,
+            "enable_follow_on_shop": false,
+            "enable_accordion": false
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "customer-care",
+            "title": "Customer Care",
+            "heading_font_size": "heading-x-small",
+            "column_width": 20,
+            "enable_accordion": false
+          }
+        },
+        "links": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "resources-footer-menu",
+            "title": "Resources",
+            "heading_font_size": "heading-x-small",
+            "column_width": 20,
+            "enable_accordion": false
+          }
+        },
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Stay in Touch",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Subscribe to get special offers, free giveaways, and collection updates.</p>",
+            "button_text": "Sign Up",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 33
+          }
+        },
+        "text_NtHGrA": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "",
+            "heading_font_size": "heading-x-large",
+            "text": "<h2>AYA SACRED WEAR</h2>",
+            "column_width": 100,
+            "enable_accordion": false
+          }
+        }
+      },
+      "block_order": [
+        "social",
+        "footer-1",
+        "links",
+        "footer-0",
+        "text_NtHGrA"
+      ],
+      "custom_css": [
+        ".rte h2 {text-align: center; color: #bda571; font-size: 10vw; margin-bottom: 0px;}",
+        ".btn {padding-block: 8px;}",
+        ".footer__block__title {font-family: var(--FONT-STACK-BODY); text-transform: unset;}",
+        ".site-footer {background-image: url(\"https://cdn.shopify.com/s/files/1/0223/5200/3146/files/yantra-footer.png?v=1766240507\"); background-size: contain; background-position: center; background-repeat: no-repeat;}",
+        ".socials {gap: 12px;}",
+        ".socials li {margin: 0;}",
+        ".rte {text-align: justify;}"
+      ],
+      "settings": {
+        "logo_image_width": 150,
+        "color_scheme": "scheme-8",
+        "border_color": "#212121",
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "anchor_logo": {
+      "type": "section-anchor-logo",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-8",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "supporting-menu-under-footer",
+        "text_font_size": "body-small",
+        "footer_payment_enable": false,
+        "enable_greyscale": false,
+        "show_locale_selector": true,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "color_scheme": "scheme-8",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "anchor_logo",
+    "supporting-menu"
+  ]
+}
