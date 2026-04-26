@@ -67,13 +67,34 @@
 }
 {% endschema %}
 
+{%- liquid
+  assign main_img = section.settings.main_image
+  assign sec_img_1 = section.settings.secondary_image_1
+  assign sec_img_2 = section.settings.secondary_image_2
+  assign main_sizes = '(min-width: 990px) 50vw, 100vw'
+  assign sec_sizes = '(min-width: 990px) 25vw, 50vw'
+  assign main_widths = '350, 450, 550, 700, 900, 1100, 1400'
+  assign sec_widths = '175, 250, 350, 450, 550, 700'
+-%}
+
 <div class="new-arrivals-section wrapper--full-padded section-padding">
   <div class="new-arrivals-section__main">
-    {% if section.settings.main_image != blank %}
+    {% if main_img != blank %}
+      {%- assign main_height = main_img.width | divided_by: main_img.aspect_ratio | round -%}
       {% if section.settings.main_image_link != blank %}
-        <a href="{{ section.settings.main_image_link }}" class="new-arrivals-section__main-image-link"><img src="{{ section.settings.main_image | image_url: width:700 }}" alt="Main image" class="new-arrivals-section__main-image" width="700" height="auto"></a>
-      {% else %}
-        <img src="{{ section.settings.main_image | image_url: width:700 }}" alt="Main image" class="new-arrivals-section__main-image" width="700" height="auto">
+        <a href="{{ section.settings.main_image_link }}" class="new-arrivals-section__main-image-link">
+      {% endif %}
+        {{ main_img | image_url: width: 700 | image_tag:
+          loading: 'lazy',
+          sizes: main_sizes,
+          widths: main_widths,
+          alt: main_img.alt | default: 'Main image',
+          class: 'new-arrivals-section__main-image',
+          width: main_img.width,
+          height: main_height
+        }}
+      {% if section.settings.main_image_link != blank %}
+        </a>
       {% endif %}
     {% endif %}
   </div>
@@ -91,11 +112,22 @@
 
     <div class="new-arrivals-section__secondary-images">
       <div class="new-arrivals-section__secondary-block">
-        {% if section.settings.secondary_image_1 != blank %}
+        {% if sec_img_1 != blank %}
+          {%- assign sec1_height = sec_img_1.width | divided_by: sec_img_1.aspect_ratio | round -%}
           {% if section.settings.secondary_image_1_link != blank %}
-            <a href="{{ section.settings.secondary_image_1_link }}" class="new-arrivals-section__secondary-link"><img src="{{ section.settings.secondary_image_1 | image_url: width:350 }}" alt="Secondary image 1" class="new-arrivals-section__secondary-image" width="350" height="auto"></a>
-          {% else %}
-            <img src="{{ section.settings.secondary_image_1 | image_url: width:350 }}" alt="Secondary image 1" class="new-arrivals-section__secondary-image" width="350" height="auto">
+            <a href="{{ section.settings.secondary_image_1_link }}" class="new-arrivals-section__secondary-link">
+          {% endif %}
+            {{ sec_img_1 | image_url: width: 350 | image_tag:
+              loading: 'lazy',
+              sizes: sec_sizes,
+              widths: sec_widths,
+              alt: sec_img_1.alt | default: 'Secondary image 1',
+              class: 'new-arrivals-section__secondary-image',
+              width: sec_img_1.width,
+              height: sec1_height
+            }}
+          {% if section.settings.secondary_image_1_link != blank %}
+            </a>
           {% endif %}
         {% endif %}
         {% if section.settings.caption_1 != blank %}
@@ -103,11 +135,22 @@
         {% endif %}
       </div>
       <div class="new-arrivals-section__secondary-block">
-        {% if section.settings.secondary_image_2 != blank %}
+        {% if sec_img_2 != blank %}
+          {%- assign sec2_height = sec_img_2.width | divided_by: sec_img_2.aspect_ratio | round -%}
           {% if section.settings.secondary_image_2_link != blank %}
-            <a href="{{ section.settings.secondary_image_2_link }}" class="new-arrivals-section__secondary-link"><img src="{{ section.settings.secondary_image_2 | image_url: width:350 }}" alt="Secondary image 2" class="new-arrivals-section__secondary-image" width="350" height="auto"></a>
-          {% else %}
-            <img src="{{ section.settings.secondary_image_2 | image_url: width:350 }}" alt="Secondary image 2" class="new-arrivals-section__secondary-image" width="350" height="auto">
+            <a href="{{ section.settings.secondary_image_2_link }}" class="new-arrivals-section__secondary-link">
+          {% endif %}
+            {{ sec_img_2 | image_url: width: 350 | image_tag:
+              loading: 'lazy',
+              sizes: sec_sizes,
+              widths: sec_widths,
+              alt: sec_img_2.alt | default: 'Secondary image 2',
+              class: 'new-arrivals-section__secondary-image',
+              width: sec_img_2.width,
+              height: sec2_height
+            }}
+          {% if section.settings.secondary_image_2_link != blank %}
+            </a>
           {% endif %}
         {% endif %}
         {% if section.settings.caption_2 != blank %}
